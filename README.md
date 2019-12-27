@@ -1,24 +1,56 @@
-# README
+# Re-Former
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Simple project for practice working with forms in Rails.
 
-Things you may want to cover:
 
-* Ruby version
+The project consists of building out forms in your web app using different styles of forms.
 
-* System dependencies
+  - First we set up the backend of the app, created the Users table with username, email and password columns.
 
-* Configuration
+  - The next few steps were just working with different types of forms
+ 
+    - The first step was building out a form using plain HTML
 
-* Database creation
+    - Second step was to create the same form but using #form_tag helper 
 
-* Database initialization
+    - And the last sytle of forms used was #forms_for  
+  
+  - After adding the forms for creating a new user, we added a new view for editing an existing user
 
-* How to run the test suite
+  - And the last step was just to test out both of the forms
 
-* Services (job queues, cache servers, search engines, etc.)
+## Built With
 
-* Deployment instructions
+- Ruby (version 2.6.3)
+- Ruby on Rails (version 5.2.4)
 
-* ...
+
+## Authors
+
+👤 **Ermin Cahtarevic**
+
+- Github: [@ermin-cahtarevic](https://github.com/ermin-cahtarevic)
+
+- Linkedin: [ermincahtarevic](https://www.linkedin.com/in/ermincahtarevic/)
+
+👤 **Vashira Samaila**
+
+- Github: [@Vashiramusa](https://github.com/Vashiramusa)
+
+- Linkedin: [vashirasamaila](https://www.linkedin.com/in/vashirasamaila/)
+
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Vashiramusa/re-former/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
+- The Odin Project
