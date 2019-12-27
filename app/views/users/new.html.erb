@@ -1,5 +1,5 @@
 <h1>Create new User</h1>
-<% if false %> 
+<!-- 
 <form action="/users" method="POST" accept-charset="UTF-8">
   <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
   <label for="username">Username</label>
@@ -13,9 +13,7 @@
 
   <input type="submit" value="Submit">
 </form>
-<% end %> 
 
-<% if false %> 
 <%= form_tag("/users") do %>
   <%= label_tag(:username, "Username")%>
   <%= text_field_tag(:username)%>
@@ -32,7 +30,7 @@
   <%= submit_tag("Submit")%>
 
 <%end%>
-<% end %> 
+-->
 
 <%= form_for @user do |f| %>
   <%= f.label :username, 'Username' %>
